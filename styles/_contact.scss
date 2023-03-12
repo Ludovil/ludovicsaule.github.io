@@ -1,0 +1,67 @@
+.section-contact h2 {
+	border-top: 1px solid var(--dark_gray);
+	border-bottom: 1px solid var(--dark_gray);
+}
+
+.section-contact .container-contact h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: 'Roboto Mono';
+}
+
+.section-contact .container-contact {
+	width: 75%;
+	height: 50vh;
+	border: 1px solid var(--light_gray);
+	margin: 50px auto;
+	display: grid;
+	align-items: center;
+	background-color: var(--light_gray);
+}
+
+@media (max-width: 425px) {
+	.section-contact .container-contact {
+		height: 25vh;
+	}
+}
+
+.contact-links {
+	margin: 0 auto;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+}
+
+.contact-icon i {
+	font-size: 3rem;
+	color: var(--black);
+	transition: 1s;
+}
+
+.contact-icon a:hover {
+	border: none;
+}
+
+.contact-icon i:hover {
+	color: white;
+	transition: 1s;
+}
+
+@media (max-width: 768px) {
+	.section-contact .container-contact h4 {
+		font-size: 1rem;
+	}
+	.contact-icon i {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.section-contact .container-contact h4 {
+		font-size: 0.8rem;
+	}
+	.contact-icon i {
+		font-size: 1rem;
+	}
+}

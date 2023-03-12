@@ -1,0 +1,49 @@
+:root {
+	--black: #383838;
+	--dark_gray: #5c5c5c;
+	--gray: #909090;
+	--light_gray: #aeaeae;
+	--white_gray: #f3f2ef;
+	--white: #f5f5f5;
+}
+
+// Fonts
+
+@import "fonts";
+
+// General
+
+@import "reset";
+
+// Nav
+
+@import "nav";
+
+// About section
+
+@import "about";
+
+// Work section
+
+@import "work";
+
+// Animations section
+
+	// Lightning
+
+	@import "anim-lightning";
+
+	// CSS
+
+	@import "anim-css";
+
+
+// Contact section
+
+@import "contact.scss";
+
+// Footer
+
+@import "footer";
+
+

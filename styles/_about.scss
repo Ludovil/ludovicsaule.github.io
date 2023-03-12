@@ -1,0 +1,109 @@
+@media (max-width: 425px) {
+	h1 {
+		text-align: center;
+	}
+}
+
+h2 {
+	border-bottom: 1px solid var(--dark_gray);
+	margin-bottom: 16px;
+}
+
+.extra-container-about-me {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 768px) {
+	.extra-container-about-me {
+		flex-direction: column;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+}
+.container-about-me {
+	height: 80vh;
+	width: 100vw;
+	padding-left: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-about-me p {
+	text-align: center;
+}
+
+.container-about-me a {
+	text-decoration: none;
+	color: var(--black);
+	transition: 0.5s;
+}
+
+.container-about-me a:hover {
+	color: var(--light_gray);
+	transition: 0.5s;
+}
+
+.languages {
+	margin: 50px 0 25px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.lang-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.lang-icon i {
+	font-size: 3rem;
+}
+
+@media (max-width: 425px) {
+	.lang-icon i {
+		font-size: 2rem;
+	}
+	.lang-icon p {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.languages {
+		display: none;
+	}
+}
+
+.mandala {
+	background-image: url('../images/mandala.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
+}
+
+aside {
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 300px;
+}
+
+aside img {
+	max-width: 200px;
+	height: auto;
+	border: 1px solid var(--light_gray);
+}
+@media (max-width: 320px) {
+	aside h3 {
+		font-size: 1.563rem;
+		text-align: center;
+	}
+	aside p {
+		font-size: 75%;
+	}
+}

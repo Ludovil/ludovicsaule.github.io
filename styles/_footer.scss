@@ -1,0 +1,24 @@
+footer {
+	font-family: serif;
+	font-size: 1.2rem;
+	background-color: var(--black);
+	height: 50px;
+	color: var(--white);
+	display: grid;
+	place-items: center;
+	word-spacing: 0.5em;
+}
+footer a {
+	color: var(--white);
+	text-decoration: none;
+	transition: 1s;
+}
+footer a:hover {
+	color: black;
+	transition: 1s;
+}
+@media (max-width: 768px) {
+	section > h2 {
+		font-size: 1.5rem;
+	}
+}
